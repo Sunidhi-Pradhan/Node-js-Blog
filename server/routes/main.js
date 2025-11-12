@@ -1,9 +1,9 @@
-const express = reuire('express');
+const express = require('express');
 const router = express.Router();
 
 //routes
 router.get('',(req,res) => {
-    res.send("Hello World");
+    res.render('index');
 });
 
-module.exports = router;
+module.exports = router;    
